@@ -15,7 +15,7 @@ public class SeleniumTest_01 {
 	public void launchapp() throws InterruptedException {
 		WebDriver driver;
 		System.setProperty("webdriver.chrome.driver",
-				"C:\\Program Files\\Selenium\\chromedriver.exe");
+				"/usr/bin/google-chrome");
 		ChromeOptions options = new ChromeOptions();
 		options.addArguments("headless");
 		driver = new ChromeDriver(options);
